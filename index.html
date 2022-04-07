@@ -22,13 +22,16 @@
                 <h2>Suporte: (62)9.8274-8777</h2>
                 <div class="textfield">
                    <label for="usuario">Usuário</label> 
-                   <input type="user" name="usuario" placeholder="Usuário">
+                   <input id="input_usuario" type="user" name="usuario" placeholder="Usuário">
                 </div>
                 <div class="textfield">
                    <label for="senha">Senha</label> 
                    <input type="password" name="senha" placeholder="Senha">
                 </div>
-                <button class="btn-login">Login</button>
+                <button id="botao_login" class="btn-login">Login</button>
+                <div class="retorna_usuario_e_senha">
+                    <h2 id="usuario_nome"></h2>  <!-- Retorna Usuario API-->
+                </div>
                 <button class="btn-senha">Esqueceu sua senha?</button>
             </div>
         </div>
